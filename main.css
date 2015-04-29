@@ -3,6 +3,7 @@
 html {
 	font-size: 16px;
 	background-image:url(1972518.jpg);
+	background-size:cover;
 }
 
 body {
@@ -21,13 +22,17 @@ body {
 }
 
 header img {
-	height:4rem;
-	width: 47.35rem;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0.1rem;
+	width:16rem;
 }
+
+header img:first-child {
+	float:left;
+}
+
+header img:last-of-type {
+	float: right;
+}
+
 
 /*Following navbar design adapted from http://css-snippets.com/simple-horizontal-navigation/ */
 
@@ -187,4 +192,14 @@ footer li {
 footer p {
 	text-align: center;
 	margin-top: 8rem;
+	background-color:rgba(255,255,255,1.00);
+}
+
+footer img {
+	display:block;
+	width:8rem;
+	height: 6rem;
+	background-color:rgba(255,255,255,1.00);
+	margin-left: 3rem;
+	
 }
