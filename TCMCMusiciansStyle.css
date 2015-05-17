@@ -71,7 +71,7 @@ nav a:hover {
 	}
 }
 
-#musicianImg {
+#featuredMusicianImage {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -79,29 +79,29 @@ nav a:hover {
 	width: 47.5rem;
 }
 
-div#musicianImg {
+div#featuredMusicianImage {
 	text-align: center;
 }
 
-#musicianImg img {
+#featuredMusicianImage img {
 	width: 46rem;
 	padding-top: 0.5rem;
 }
 
 
 
-.aboutMusician {
+.featuredMusician {
 	width:48rem;
 	color:rgba(255,255,255,1.00);
 }
 
-.aboutMusician p {
+.featuredMusician p {
 	padding:0.5rem;
 	border-right:0.5rem rgba(0,0,0,1.00) solid;
 	border-bottom:0.75rem rgba(0,0,0,1.00) solid;
 }
 
-.aboutMusician p:first-child {
+.featuredMusician p:first-child {
 	margin-top: 0rem;
 	margin-left:0.25rem;
 	width: 14rem;
@@ -111,7 +111,7 @@ div#musicianImg {
 		border-left: 0.5rem rgba(0,0,0,1.00) solid;
 }
 
-.aboutMusician p:nth-child(2) {
+.featuredMusician p:nth-child(2) {
 	margin-top: 0rem;
 	margin-right:0.25rem;
 	width: 30rem;
@@ -122,8 +122,49 @@ div#musicianImg {
 
 .rowStyle {
 	width:47.5rem;
-	font-size:0.8rem;
 	margin-left:0.3rem;
+}
+
+#rowOne {
+	font-size:0.7rem;
+}
+
+#rowTwo {
+	font-size:0.6rem;
+}
+
+#rowThree {
+	font-size:0.6rem;
+	margin-bottom:0.5rem;
+	padding-bottom:0.5rem;	
+}
+
+#rowFour {
+	font-size:0.7rem;
+}
+
+#rowFive {
+	font-size:0.6rem;
+}
+
+#rowSix {
+	font-size:0.6rem;
+}
+
+#rowSeven {
+	font-size:0.6rem;
+}
+
+#rowEight {
+	font-size:0.6rem;
+}
+
+#rowNine {
+	font-size:0.6rem;
+}
+
+#rowTen {
+	font-size:0.6rem;
 }
 
 .columnOne {
